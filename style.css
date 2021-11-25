@@ -65,6 +65,7 @@ button,
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
+  font-weight: 100;
 }
 
 .header ul {
@@ -147,4 +148,15 @@ button,
   width: 150px;
   height: 150px;
   border-radius: 18px;
+}
+
+.quote-by {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: end;
+}
+
+.quote {
+  margin: 120px 0;
+  max-width: 800px;
 }
