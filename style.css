@@ -53,6 +53,8 @@ button,
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
+  text-align: center;
+  margin: 50px 0;
 }
 
 .quote-bg {
@@ -117,4 +119,32 @@ button,
   margin: 8px 0 16px;
   display: flex;
   align-items: center;
+}
+
+.info {
+  flex: 1;
+}
+
+.info-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 50px;
+  color: grey;
+}
+
+.info-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+}
+
+.info-image {
+  border: 4px solid #3882F6;
+  width: 150px;
+  height: 150px;
+  border-radius: 18px;
 }
