@@ -1,13 +1,22 @@
+.hero-bg,
+.info-bg,
+.quote-bg,
+.action-bg,
+.footer-bg {
+  display: flex;
+  justify-content: center;
+}
+
 .hero,
 .info,
 .quote,
 .action,
 .footer {
-  padding: 0 200px;
-}
+  max-width: 1000px;
+} 
 
-.hero,
-.footer {
+.hero-bg,
+.footer-bg {
   background-color: #1F2937;
   color: #E5E7EB;
 }
@@ -41,7 +50,7 @@ button,
   color: #1F2937;
 }
 
-.quote {
+.quote-bg {
   background-color: #E5E7EB;
 }
 
@@ -80,4 +89,8 @@ body {
 
 .hero-bottom {
   display: flex;
+}
+
+.hero-image {
+  background-color: rgb(115, 115, 129);
 }
