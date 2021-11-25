@@ -107,7 +107,8 @@ button,
   align-items: center;
 }
 
-.hero-text button {
+.hero-text button,
+.action-button button {
   border: 0;
   padding: 8px 30px;
   color: #E5E7EB;
@@ -157,6 +158,43 @@ button,
 }
 
 .quote {
-  margin: 120px 0;
+  margin: 100px 0;
   max-width: 800px;
+}
+
+.action {
+  flex: 1;
+  display: flex;
+  border-radius: 10px;
+  padding: 40px 0;
+  margin: 100px 0;
+}
+
+.action-text {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-button {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-button button {
+  border: 2px solid #E5E7EB;
+}
+
+.action-maintext {
+  font-size: 20px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.action-subtext {
+  color: #E5E7EB;
+  margin-top: 5px;
 }
