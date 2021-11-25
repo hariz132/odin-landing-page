@@ -23,7 +23,6 @@ body {
 .hero-bg,
 .footer-bg {
   background-color: #1F2937;
-  color: #E5E7EB;
 }
 
 .hero-maintext {
@@ -68,7 +67,7 @@ button,
   font-weight: 100;
 }
 
-.header ul {
+.header-links {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -197,4 +196,10 @@ button,
 .action-subtext {
   color: #E5E7EB;
   margin-top: 5px;
+}
+
+.footer-bg {
+  padding: 50px 0;
+  color: #E5E7EB;
+  font-size: 18px;
 }
