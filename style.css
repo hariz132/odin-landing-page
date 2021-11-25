@@ -15,6 +15,11 @@
   max-width: 1000px;
 } 
 
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .hero-bg,
 .footer-bg {
   background-color: #1F2937;
@@ -24,7 +29,7 @@
 .hero-maintext {
   font-size: 48px;
   font-weight: bolder;
-  color: #F9FAF8;
+  color: #F9FAF8; 
 }
 
 .hero-subtext,
@@ -68,16 +73,11 @@ button,
   gap: 30px;
 }
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 0 100px;
+  margin-top: 16px;
 }
 
 .hero {
@@ -87,8 +87,34 @@ body {
 
 .hero-bottom {
   display: flex;
+  margin: 100px 0;
+  gap: 50px;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 16px 0;
 }
 
 .hero-image {
   background-color: rgba(255, 255, 255, 0.3);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text button {
+  border: 0;
+  padding: 8px 30px;
+  color: #E5E7EB;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.hero-subtext {
+  margin: 8px 0 16px;
+  display: flex;
+  align-items: center;
 }
